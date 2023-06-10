@@ -1,11 +1,10 @@
 # express-server
 
-A simple node express server with a `POST` and `GET` route that returns a JSON object.
+A simple node server with a `POST` and `GET` route that returns a JSON object. This project doesn't use any dependencies.
 
 ## Commands
 
 ```bash
-yarn # install dependencies
 yarn dev # start server in watch mode
 yarn start # start server
 ```
