@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify({ result: "Data received !" }));
     });
   } else {
-    res.writeHead(404, { "Content-Type": "text/plain" });
+    res.writeHead(404, HEADERS);
     res.end(JSON.stringify({ error: "404 - not found" }));
   }
 });
